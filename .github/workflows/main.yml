@@ -32,3 +32,4 @@ jobs:
          timeout: 600000  
          debug: true
          ftp-passive: false
+         transfer-mode: binary
