@@ -22,7 +22,7 @@ jobs:
           npm run build
          
       - name: 📂 Sync files
-        uses: SamKirkland/FTP-Deploy-Action@v4.1.0
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.1
         with:
          server: ftp.mariful-islam.com
          username: testaccount@app.marifulislam.com
